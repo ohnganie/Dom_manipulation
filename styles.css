@@ -1,0 +1,110 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("pictures/coffee.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:soft-light;
+    
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  .home-description{
+      color:red;
+  }
+  ul {
+    display: flex;
+    justify-content:left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-weight: bold;
+    font-size:120% ;
+
+  }
+  
+  li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    position:relative;
+  }
+  li:hover {
+    background-color: rgb(163, 8, 57);
+  }
+  .logo-text{
+    font-family: 'Cookie', cursive;
+    color:yellow;
+    font-size: 250%;
+    font-weight: bold;
+  }
+  .home-header{
+      color: white;
+      text-align: center;
+      font-size: 500%;
+      font-family: "Karla", sans-serif;
+      margin-top: 170px;
+      
+
+  }
+  .home-description{
+      color:white;
+      text-align: center;
+      font-size: 150%;
+      line-height: 24px;
+      font-family: "Karla", sans-serif;
+      margin-top: 20px;
+  }
+  .home-button{
+      text-align: center;
+      background-color: yellow;
+      margin-left: 580px;
+      margin-top:50px;
+      height:50px;
+      width:200px;
+      border-radius: 16px;
+  }
+  
+      
+  .nav-text{
+      text-align: end;
+  }
+  .closing-text{
+      color:white;
+      text-align: center;
+      font-family:'Cookie', cursive;
+      font-size: 200%;
+  }
+
+  .contact-wrapper {
+    height: 50vh;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+      url("pictures/contact.jpg") center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 100px auto 50px auto;
+  }
+  .physical-Adress{
+      color:white;
+      font-size: 150%;
+  }
+  .contact-no{
+      color:white;
+      font-size: 150%;
+  }
+  .menu-description{
+      color:white;
+      font-size:150%;
+  }
+  .contact-description{
+      color:yellow;
+  }
