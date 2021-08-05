@@ -1,3 +1,6 @@
+//nav bar
+//creating elements
+
 const div = document.getElementById('content');
 
 const nav = document.createElement('nav');
@@ -10,7 +13,7 @@ const nav = document.createElement('nav');
     const contactList = document.createElement('li');
 
 
-
+//adding textContent
     homeList.textContent = 'Home';
     aboutUs.textContent = 'About';
     menuList.textContent = ' Delicious Menu';
@@ -18,7 +21,7 @@ const nav = document.createElement('nav');
     contactList.textContent = 'Contact';
     nav.classList=('navbar');
     logo.textContent='Food Velly';
-
+//classList
     logo.classList='logo-text';
     homeList.classList = 'nav-text';
     menuList.classList = 'nav-text';
@@ -26,7 +29,7 @@ const nav = document.createElement('nav');
     galleryList.classList = 'nav-text';
     contactList.classList = 'nav-text';
     
-
+//appending
     unOrdered.appendChild(logo);
     unOrdered.appendChild(homeList);
     unOrdered.appendChild(aboutUs);
@@ -83,13 +86,14 @@ const nav = document.createElement('nav');
     intro.appendChild(menuBtn);
     intro.appendChild(closingText);
     mainContent.appendChild(intro);
-    div.appendChild(intro);
+    div.appendChild(mainContent);
 
     
     
     //contact Session
     
     const contactContent = document.createElement('div');
+    
 
     // creating DOM elements
     const contactBanner = document.createElement('section');

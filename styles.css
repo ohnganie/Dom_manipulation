@@ -5,13 +5,12 @@ body {
     background-size: cover;
     background-blend-mode:soft-light;
     
+    
     position: relative;
     margin: 0;
     padding: 0;
   }
-  .home-description{
-      color:red;
-  }
+  
   ul {
     display: flex;
     justify-content:left;
@@ -21,6 +20,7 @@ body {
     overflow: hidden;
     font-weight: bold;
     font-size:120% ;
+    text-align: right;
 
   }
   
@@ -31,9 +31,10 @@ body {
     padding: 16px 16px;
     text-decoration: none;
     position:relative;
+    text-align: right;
   }
   li:hover {
-    background-color: rgb(163, 8, 57);
+    background-color:red;
   }
   .logo-text{
     font-family: 'Cookie', cursive;
@@ -70,7 +71,7 @@ body {
   
       
   .nav-text{
-      text-align: end;
+      float: right;
   }
   .closing-text{
       color:white;
